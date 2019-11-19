@@ -1,0 +1,24 @@
+{
+    "name": "qianfangzhifeng\/laravel-wechat",
+    "description": "this is a laravel wechat",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "qianfangzhifeng",
+            "email": "541490838@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Qianfangzhifeng\\LaravelWechat\\": ""
+        }
+    },
+    "extra":{
+        "laravel":{
+            "providers":[
+                "Qianfangzhifeng\\LaravelWechat\\Providers\\WeChatServiceProvider"
+            ]
+        }
+    }
+}
